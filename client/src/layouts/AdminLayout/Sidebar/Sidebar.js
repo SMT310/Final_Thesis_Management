@@ -130,7 +130,7 @@ function Sidebar() {
   }, []);
 
   const drawer = (
-    <Box height="100%" sx={{ backgroundColor: "rgb(6, 115, 235)" }}>
+    <Box height="100%" sx={{ backgroundColor: "brown" }}>
       <CssBaseline />
       <Toolbar>
         <Typography

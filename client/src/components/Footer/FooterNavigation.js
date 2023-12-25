@@ -42,7 +42,7 @@ function NavigationItem({ label, path }) {
         sx={{
           display: 'block',
           mb: 1,
-          color: isActive ? '#ff6600' : 'primary.contrastText',
+          color: isActive ? '#fd0000' : 'primary.contrastText',
           fontSize: '1.5rem',
           fontWeight: isActive ? 600 : 'inherit',
         }}

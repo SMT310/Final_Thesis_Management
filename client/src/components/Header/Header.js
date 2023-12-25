@@ -15,7 +15,7 @@ const Header = () => {
   const user = localStorage.getItem('account') ? JSON.parse(localStorage.getItem('account')) : {};
   return (
     <Box sx={{ backgroundColor: 'background.paper' }}>
-      <Box sx={{ py: { xs: 2, md: 3 }, backgroundColor: '#00558d' }}>
+      <Box sx={{ py: { xs: 2, md: 3 }, backgroundColor: '#030000' }}>
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', ml: 12, mr: 12 }}>
           <Navigation />
           <Box sx={{ ml: 'auto', display: { xs: 'inline-flex', md: 'none' } }}>
