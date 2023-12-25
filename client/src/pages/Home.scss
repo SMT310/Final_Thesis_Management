@@ -1,0 +1,42 @@
+.slick-prev {
+    left: -25px !important;
+    z-index: 10 !important;
+    height: 44px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+    bottom: 10% !important;
+    &:hover {
+      color: #1976d2;
+      background: #ececec !important;
+    }
+    
+}
+.slick-prev::before {
+    content: '' !important;
+    color: red !important;
+}
+.slick-prev:focus {
+  color: #1976d2;
+}
+
+.slick-next {
+  right: -25px !important;
+  z-index: 1000 !important;
+  height: 44px !important;
+  width: 44px !important;
+  background: #fff !important;
+  border: 2px solid #d7d7d7 !important;
+  &:hover {
+    color: #1976d2;
+    background: #ececec !important;
+  }
+}
+.slick-next::before {
+  content: '' !important;
+  color: red !important;
+}
+.slick-next:focus {
+  color: #1976d2;
+}
+  
