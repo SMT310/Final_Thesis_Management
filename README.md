@@ -2,7 +2,7 @@
 <html lang="en">
 <body>
 
-  <h1>Project Name</h1>
+  <h1>Thesis Management</h1>
 
   <p>Brief project description goes here.</p>
 
